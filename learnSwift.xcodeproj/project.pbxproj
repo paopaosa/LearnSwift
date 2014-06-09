@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CE2A1091193F0243007FCFCE /* MyTableController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2A1090193F0243007FCFCE /* MyTableController.swift */; };
+		CE2A1092193F0243007FCFCE /* MyTableController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2A1090193F0243007FCFCE /* MyTableController.swift */; };
+		CE8BD6A21945A12F0087C3AD /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8BD6A11945A12F0087C3AD /* CustomTableViewCell.swift */; };
+		CE8BD6A41945A24A0087C3AD /* MyContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8BD6A31945A24A0087C3AD /* MyContentView.swift */; };
 		CEF0CE1A193ED0DA003395DF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF0CE19193ED0DA003395DF /* AppDelegate.swift */; };
 		CEF0CE1C193ED0DA003395DF /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF0CE1B193ED0DA003395DF /* FirstViewController.swift */; };
 		CEF0CE1E193ED0DA003395DF /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF0CE1D193ED0DA003395DF /* SecondViewController.swift */; };
@@ -26,6 +30,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CE2A1090193F0243007FCFCE /* MyTableController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyTableController.swift; sourceTree = "<group>"; };
+		CE8BD6A11945A12F0087C3AD /* CustomTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
+		CE8BD6A31945A24A0087C3AD /* MyContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyContentView.swift; sourceTree = "<group>"; };
 		CEF0CE14193ED0DA003395DF /* learnSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = learnSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEF0CE18193ED0DA003395DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CEF0CE19193ED0DA003395DF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -77,9 +84,12 @@
 		CEF0CE16193ED0DA003395DF /* learnSwift */ = {
 			isa = PBXGroup;
 			children = (
+				CE8BD6A31945A24A0087C3AD /* MyContentView.swift */,
+				CE8BD6A11945A12F0087C3AD /* CustomTableViewCell.swift */,
 				CEF0CE19193ED0DA003395DF /* AppDelegate.swift */,
 				CEF0CE1B193ED0DA003395DF /* FirstViewController.swift */,
 				CEF0CE1D193ED0DA003395DF /* SecondViewController.swift */,
+				CE2A1090193F0243007FCFCE /* MyTableController.swift */,
 				CEF0CE1F193ED0DA003395DF /* Main.storyboard */,
 				CEF0CE22193ED0DA003395DF /* Images.xcassets */,
 				CEF0CE17193ED0DA003395DF /* Supporting Files */,
@@ -211,6 +221,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE8BD6A41945A24A0087C3AD /* MyContentView.swift in Sources */,
+				CE8BD6A21945A12F0087C3AD /* CustomTableViewCell.swift in Sources */,
+				CE2A1091193F0243007FCFCE /* MyTableController.swift in Sources */,
 				CEF0CE1E193ED0DA003395DF /* SecondViewController.swift in Sources */,
 				CEF0CE1A193ED0DA003395DF /* AppDelegate.swift in Sources */,
 				CEF0CE1C193ED0DA003395DF /* FirstViewController.swift in Sources */,
@@ -221,6 +234,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE2A1092193F0243007FCFCE /* MyTableController.swift in Sources */,
 				CEF0CE2F193ED0DA003395DF /* learnSwiftTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -330,6 +344,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = learnSwift/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -341,6 +356,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = learnSwift/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -401,6 +417,7 @@
 				CEF0CE34193ED0DA003395DF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CEF0CE35193ED0DA003395DF /* Build configuration list for PBXNativeTarget "learnSwiftTests" */ = {
 			isa = XCConfigurationList;
@@ -409,6 +426,7 @@
 				CEF0CE37193ED0DA003395DF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
