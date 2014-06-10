@@ -9,6 +9,7 @@
 import UIKit
 
 class SecondViewController: UIViewController {
+    @IBOutlet var dotView : UIView
                             
     override func viewDidLoad() {
         super.viewDidLoad()

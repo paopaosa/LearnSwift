@@ -8,7 +8,10 @@
 
 import UIKit
 
+@IBDesignable
+
 class MyContentView: UIView {
+    @IBInspectable var textColor: UIColor?
 
     init(frame: CGRect) {
         super.init(frame: frame)
@@ -17,6 +20,8 @@ class MyContentView: UIView {
     
     init(coder aDecoder: NSCoder!)  {
         super.init(coder: aDecoder)
+        self.backgroundColor = UIColor.clearColor()
+        
     }
 
     // Only override drawRect: if you perform custom drawing.

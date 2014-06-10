@@ -8,12 +8,14 @@
 
 import UIKit
 
+@IBDesignable
+
 class CustomTableViewCell: UITableViewCell {
+    @IBOutlet var myDotView : MyContentView
 
     init(style: UITableViewCellStyle, reuseIdentifier: String) {
         super.init(style: style, reuseIdentifier: reuseIdentifier)
         // Initialization code
-        self.contentView.addSubview(MyContentView(frame: self.frame))
     }
 
     override func awakeFromNib() {
