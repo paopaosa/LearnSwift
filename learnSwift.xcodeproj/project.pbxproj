@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		97DF08B361F440D6AA562D9A /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8071DF829BF549D9A1880FF2 /* libPods.a */; };
+		CE22DA581946CF5800CF8CE6 /* CommonDefines.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE22DA571946CF5800CF8CE6 /* CommonDefines.swift */; };
 		CE2A1091193F0243007FCFCE /* MyTableController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2A1090193F0243007FCFCE /* MyTableController.swift */; };
 		CE2A1092193F0243007FCFCE /* MyTableController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2A1090193F0243007FCFCE /* MyTableController.swift */; };
 		CE8BD6A21945A12F0087C3AD /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8BD6A11945A12F0087C3AD /* CustomTableViewCell.swift */; };
@@ -30,6 +32,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8071DF829BF549D9A1880FF2 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		9DD6C17904AE48108942F082 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+		CE22DA571946CF5800CF8CE6 /* CommonDefines.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommonDefines.swift; sourceTree = "<group>"; };
+		CE22DA5B1946F84600CF8CE6 /* learnSwift-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "learnSwift-Bridging-Header.h"; sourceTree = "<group>"; };
+		CE22DA5C1946F84600CF8CE6 /* learnSwiftTests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "learnSwiftTests-Bridging-Header.h"; sourceTree = "<group>"; };
 		CE2A1090193F0243007FCFCE /* MyTableController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyTableController.swift; sourceTree = "<group>"; };
 		CE8BD6A11945A12F0087C3AD /* CustomTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
 		CE8BD6A31945A24A0087C3AD /* MyContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyContentView.swift; sourceTree = "<group>"; };
@@ -50,6 +57,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				97DF08B361F440D6AA562D9A /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,12 +71,36 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		156CCA70401B48E18C9A6FF2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8071DF829BF549D9A1880FF2 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CE22DA591946CF7200CF8CE6 /* viewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				CE8BD6A31945A24A0087C3AD /* MyContentView.swift */,
+				CE8BD6A11945A12F0087C3AD /* CustomTableViewCell.swift */,
+				CEF0CE19193ED0DA003395DF /* AppDelegate.swift */,
+				CEF0CE1B193ED0DA003395DF /* FirstViewController.swift */,
+				CEF0CE1D193ED0DA003395DF /* SecondViewController.swift */,
+				CE2A1090193F0243007FCFCE /* MyTableController.swift */,
+				CEF0CE1F193ED0DA003395DF /* Main.storyboard */,
+			);
+			name = viewControllers;
+			sourceTree = "<group>";
+		};
 		CEF0CE0B193ED0DA003395DF = {
 			isa = PBXGroup;
 			children = (
 				CEF0CE16193ED0DA003395DF /* learnSwift */,
 				CEF0CE2B193ED0DA003395DF /* learnSwiftTests */,
 				CEF0CE15193ED0DA003395DF /* Products */,
+				9DD6C17904AE48108942F082 /* Pods.xcconfig */,
+				156CCA70401B48E18C9A6FF2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -84,15 +116,12 @@
 		CEF0CE16193ED0DA003395DF /* learnSwift */ = {
 			isa = PBXGroup;
 			children = (
-				CE8BD6A31945A24A0087C3AD /* MyContentView.swift */,
-				CE8BD6A11945A12F0087C3AD /* CustomTableViewCell.swift */,
-				CEF0CE19193ED0DA003395DF /* AppDelegate.swift */,
-				CEF0CE1B193ED0DA003395DF /* FirstViewController.swift */,
-				CEF0CE1D193ED0DA003395DF /* SecondViewController.swift */,
-				CE2A1090193F0243007FCFCE /* MyTableController.swift */,
-				CEF0CE1F193ED0DA003395DF /* Main.storyboard */,
+				CE22DA571946CF5800CF8CE6 /* CommonDefines.swift */,
+				CE22DA591946CF7200CF8CE6 /* viewControllers */,
 				CEF0CE22193ED0DA003395DF /* Images.xcassets */,
 				CEF0CE17193ED0DA003395DF /* Supporting Files */,
+				CE22DA5B1946F84600CF8CE6 /* learnSwift-Bridging-Header.h */,
+				CE22DA5C1946F84600CF8CE6 /* learnSwiftTests-Bridging-Header.h */,
 			);
 			path = learnSwift;
 			sourceTree = "<group>";
@@ -129,9 +158,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CEF0CE32193ED0DA003395DF /* Build configuration list for PBXNativeTarget "learnSwift" */;
 			buildPhases = (
+				E06009B9364A4E209567F6F9 /* Check Pods Manifest.lock */,
 				CEF0CE10193ED0DA003395DF /* Sources */,
 				CEF0CE11193ED0DA003395DF /* Frameworks */,
 				CEF0CE12193ED0DA003395DF /* Resources */,
+				068F60078F8F4FA48DD63BA9 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -216,6 +247,39 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		068F60078F8F4FA48DD63BA9 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E06009B9364A4E209567F6F9 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		CEF0CE10193ED0DA003395DF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -225,6 +289,7 @@
 				CE8BD6A21945A12F0087C3AD /* CustomTableViewCell.swift in Sources */,
 				CE2A1091193F0243007FCFCE /* MyTableController.swift in Sources */,
 				CEF0CE1E193ED0DA003395DF /* SecondViewController.swift in Sources */,
+				CE22DA581946CF5800CF8CE6 /* CommonDefines.swift in Sources */,
 				CEF0CE1A193ED0DA003395DF /* AppDelegate.swift in Sources */,
 				CEF0CE1C193ED0DA003395DF /* FirstViewController.swift in Sources */,
 			);
@@ -340,25 +405,36 @@
 		};
 		CEF0CE33193ED0DA003395DF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9DD6C17904AE48108942F082 /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
 				INFOPLIST_FILE = learnSwift/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "learnSwift/learnSwift-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
 		CEF0CE34193ED0DA003395DF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9DD6C17904AE48108942F082 /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = learnSwift/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "learnSwift/learnSwift-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -366,6 +442,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/learnSwift.app/learnSwift";
+				CLANG_ENABLE_MODULES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -378,6 +455,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				METAL_ENABLE_DEBUG_INFO = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "learnSwift/learnSwiftTests-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 			};
 			name = Debug;
@@ -386,6 +465,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/learnSwift.app/learnSwift";
+				CLANG_ENABLE_MODULES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -394,6 +474,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				METAL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "learnSwift/learnSwiftTests-Bridging-Header.h";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 			};
 			name = Release;

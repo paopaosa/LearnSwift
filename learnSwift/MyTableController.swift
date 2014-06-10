@@ -9,6 +9,8 @@
 import UIKit
 
 class MyTableController: UITableViewController {
+    var dataList = [12, 3, 5, 100, 20]
+    let manager = AFHTTPRequestOperationManager()
 
     init(style: UITableViewStyle) {
         super.init(style: style)
@@ -27,6 +29,15 @@ class MyTableController: UITableViewController {
 
         // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
         // self.navigationItem.rightBarButtonItem = self.editButtonItem
+        
+        manager.GET( "http://examples.com/json",
+            parameters: nil,
+            success: { (operation: AFHTTPRequestOperation!,responseObject: AnyObject!) in
+                println("JSON: " + responseObject.description)
+            },
+            failure: { (operation: AFHTTPRequestOperation!,error: NSError!) in
+                println("Error: " + error.localizedDescription)
+            })
     }
 
     override func didReceiveMemoryWarning() {
@@ -45,15 +56,15 @@ class MyTableController: UITableViewController {
     override func tableView(tableView: UITableView?, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete method implementation.
         // Return the number of rows in the section.
-        return 10
+        return dataList.count
     }
 
     
     override func tableView(tableView: UITableView!, cellForRowAtIndexPath indexPath: NSIndexPath!) -> UITableViewCell! {
-        var cell = tableView.dequeueReusableCellWithIdentifier("Cell", forIndexPath: indexPath) as CustomTableViewCell!
+        let cell = tableView.dequeueReusableCellWithIdentifier("Cell", forIndexPath: indexPath) as CustomTableViewCell!
 //        cell.textLabel.text = String(format: "%i", indexPath.row+1)
         // Configure the cell...
-        cell.textLabel.text = "\(indexPath.row)"
+        cell.textLabel.text = "\(self.dataList[indexPath.row])"
         cell.textLabel.backgroundColor = UIColor.clearColor()
         return cell
     }
