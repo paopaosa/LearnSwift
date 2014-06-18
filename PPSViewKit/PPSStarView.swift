@@ -1,16 +1,14 @@
 //
-//  MyContentView.swift
+//  PPSStarView.swift
 //  learnSwift
 //
-//  Created by macpps on 14-6-9.
+//  Created by macpps on 14-6-12.
 //  Copyright (c) 2014年 paopaosa. All rights reserved.
 //
 
 import UIKit
 
-@IBDesignable
-class MyContentView: UIView {
-    @IBInspectable var textColor: UIColor?
+class PPSStarView: UIView {
 
     init(frame: CGRect) {
         super.init(frame: frame)
@@ -19,10 +17,10 @@ class MyContentView: UIView {
     
     init(coder aDecoder: NSCoder!)  {
         super.init(coder: aDecoder)
-        self.backgroundColor = UIColor.clearColor()
     }
     
-    override func layoutSubviews() {
+    override func layoutSubviews()
+    {
         super.layoutSubviews()
         var grayLabel:UILabel = UILabel(frame: CGRectMake(0,0,20,20))
         grayLabel.text = "Hello"
@@ -30,8 +28,6 @@ class MyContentView: UIView {
         self.addSubview(grayLabel)
     }
 
-    // Only override drawRect: if you perform custom drawing.
-    // An empty implementation adversely affects performance during animation.
     override func drawRect(rect: CGRect)
     {
         // Drawing code

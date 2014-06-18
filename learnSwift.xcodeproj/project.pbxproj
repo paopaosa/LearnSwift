@@ -13,6 +13,13 @@
 		CE2A1092193F0243007FCFCE /* MyTableController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2A1090193F0243007FCFCE /* MyTableController.swift */; };
 		CE8BD6A21945A12F0087C3AD /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8BD6A11945A12F0087C3AD /* CustomTableViewCell.swift */; };
 		CE8BD6A41945A24A0087C3AD /* MyContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8BD6A31945A24A0087C3AD /* MyContentView.swift */; };
+		CE9FC3611949412600232400 /* PPSViewKit.h in Headers */ = {isa = PBXBuildFile; fileRef = CE9FC3601949412600232400 /* PPSViewKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CE9FC3671949412600232400 /* PPSViewKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE9FC35C1949412600232400 /* PPSViewKit.framework */; };
+		CE9FC36E1949412600232400 /* PPSViewKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9FC36D1949412600232400 /* PPSViewKitTests.swift */; };
+		CE9FC3711949412600232400 /* PPSViewKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE9FC35C1949412600232400 /* PPSViewKit.framework */; };
+		CE9FC3721949412600232400 /* PPSViewKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = CE9FC35C1949412600232400 /* PPSViewKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		CE9FC3851949415000232400 /* PPSStarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9FC3841949415000232400 /* PPSStarView.swift */; };
+		CE9FC3861949415000232400 /* PPSStarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9FC3841949415000232400 /* PPSStarView.swift */; };
 		CEF0CE1A193ED0DA003395DF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF0CE19193ED0DA003395DF /* AppDelegate.swift */; };
 		CEF0CE1C193ED0DA003395DF /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF0CE1B193ED0DA003395DF /* FirstViewController.swift */; };
 		CEF0CE1E193ED0DA003395DF /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF0CE1D193ED0DA003395DF /* SecondViewController.swift */; };
@@ -22,6 +29,55 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		CE9FC3681949412600232400 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CEF0CE0C193ED0DA003395DF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CE9FC35B1949412600232400;
+			remoteInfo = PPSViewKit;
+		};
+		CE9FC36F1949412600232400 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CEF0CE0C193ED0DA003395DF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CE9FC35B1949412600232400;
+			remoteInfo = PPSViewKit;
+		};
+		CE9FC3731949412600232400 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CEF0CE0C193ED0DA003395DF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CE9FC35B1949412600232400;
+			remoteInfo = PPSViewKit;
+		};
+		CE9FC37C1949412700232400 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CEF0CE0C193ED0DA003395DF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CE9FC35B1949412600232400;
+			remoteInfo = PPSViewKit;
+		};
+		CE9FC37E1949412700232400 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CEF0CE0C193ED0DA003395DF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CE9FC35B1949412600232400;
+			remoteInfo = PPSViewKit;
+		};
+		CE9FC3801949412800232400 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CEF0CE0C193ED0DA003395DF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CE9FC35B1949412600232400;
+			remoteInfo = PPSViewKit;
+		};
+		CE9FC3821949412800232400 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CEF0CE0C193ED0DA003395DF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CE9FC35B1949412600232400;
+			remoteInfo = PPSViewKit;
+		};
 		CEF0CE29193ED0DA003395DF /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = CEF0CE0C193ED0DA003395DF /* Project object */;
@@ -30,6 +86,20 @@
 			remoteInfo = learnSwift;
 		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		CE9FC37A1949412600232400 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				CE9FC3721949412600232400 /* PPSViewKit.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		8071DF829BF549D9A1880FF2 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -40,6 +110,13 @@
 		CE2A1090193F0243007FCFCE /* MyTableController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyTableController.swift; sourceTree = "<group>"; };
 		CE8BD6A11945A12F0087C3AD /* CustomTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
 		CE8BD6A31945A24A0087C3AD /* MyContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyContentView.swift; sourceTree = "<group>"; };
+		CE9FC35C1949412600232400 /* PPSViewKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PPSViewKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE9FC35F1949412600232400 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE9FC3601949412600232400 /* PPSViewKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PPSViewKit.h; sourceTree = "<group>"; };
+		CE9FC3661949412600232400 /* PPSViewKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PPSViewKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE9FC36C1949412600232400 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE9FC36D1949412600232400 /* PPSViewKitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PPSViewKitTests.swift; sourceTree = "<group>"; };
+		CE9FC3841949415000232400 /* PPSStarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PPSStarView.swift; sourceTree = "<group>"; };
 		CEF0CE14193ED0DA003395DF /* learnSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = learnSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEF0CE18193ED0DA003395DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CEF0CE19193ED0DA003395DF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -53,10 +130,26 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		CE9FC3581949412600232400 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE9FC3631949412600232400 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE9FC3671949412600232400 /* PPSViewKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		CEF0CE11193ED0DA003395DF /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE9FC3711949412600232400 /* PPSViewKit.framework in Frameworks */,
 				97DF08B361F440D6AA562D9A /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -93,11 +186,57 @@
 			name = viewControllers;
 			sourceTree = "<group>";
 		};
+		CE95687D1947E7D100A7AA6C /* bridge */ = {
+			isa = PBXGroup;
+			children = (
+				CE22DA5B1946F84600CF8CE6 /* learnSwift-Bridging-Header.h */,
+				CE22DA5C1946F84600CF8CE6 /* learnSwiftTests-Bridging-Header.h */,
+			);
+			name = bridge;
+			sourceTree = "<group>";
+		};
+		CE9FC35D1949412600232400 /* PPSViewKit */ = {
+			isa = PBXGroup;
+			children = (
+				CE9FC3601949412600232400 /* PPSViewKit.h */,
+				CE9FC3841949415000232400 /* PPSStarView.swift */,
+				CE9FC35E1949412600232400 /* Supporting Files */,
+			);
+			path = PPSViewKit;
+			sourceTree = "<group>";
+		};
+		CE9FC35E1949412600232400 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CE9FC35F1949412600232400 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CE9FC36A1949412600232400 /* PPSViewKitTests */ = {
+			isa = PBXGroup;
+			children = (
+				CE9FC36D1949412600232400 /* PPSViewKitTests.swift */,
+				CE9FC36B1949412600232400 /* Supporting Files */,
+			);
+			path = PPSViewKitTests;
+			sourceTree = "<group>";
+		};
+		CE9FC36B1949412600232400 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CE9FC36C1949412600232400 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		CEF0CE0B193ED0DA003395DF = {
 			isa = PBXGroup;
 			children = (
 				CEF0CE16193ED0DA003395DF /* learnSwift */,
 				CEF0CE2B193ED0DA003395DF /* learnSwiftTests */,
+				CE9FC35D1949412600232400 /* PPSViewKit */,
+				CE9FC36A1949412600232400 /* PPSViewKitTests */,
 				CEF0CE15193ED0DA003395DF /* Products */,
 				9DD6C17904AE48108942F082 /* Pods.xcconfig */,
 				156CCA70401B48E18C9A6FF2 /* Frameworks */,
@@ -109,6 +248,8 @@
 			children = (
 				CEF0CE14193ED0DA003395DF /* learnSwift.app */,
 				CEF0CE28193ED0DA003395DF /* learnSwiftTests.xctest */,
+				CE9FC35C1949412600232400 /* PPSViewKit.framework */,
+				CE9FC3661949412600232400 /* PPSViewKitTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -120,8 +261,7 @@
 				CE22DA591946CF7200CF8CE6 /* viewControllers */,
 				CEF0CE22193ED0DA003395DF /* Images.xcassets */,
 				CEF0CE17193ED0DA003395DF /* Supporting Files */,
-				CE22DA5B1946F84600CF8CE6 /* learnSwift-Bridging-Header.h */,
-				CE22DA5C1946F84600CF8CE6 /* learnSwiftTests-Bridging-Header.h */,
+				CE95687D1947E7D100A7AA6C /* bridge */,
 			);
 			path = learnSwift;
 			sourceTree = "<group>";
@@ -153,7 +293,58 @@
 		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		CE9FC3591949412600232400 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE9FC3611949412600232400 /* PPSViewKit.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
+		CE9FC35B1949412600232400 /* PPSViewKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE9FC3791949412600232400 /* Build configuration list for PBXNativeTarget "PPSViewKit" */;
+			buildPhases = (
+				CE9FC3571949412600232400 /* Sources */,
+				CE9FC3581949412600232400 /* Frameworks */,
+				CE9FC3591949412600232400 /* Headers */,
+				CE9FC35A1949412600232400 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PPSViewKit;
+			productName = PPSViewKit;
+			productReference = CE9FC35C1949412600232400 /* PPSViewKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		CE9FC3651949412600232400 /* PPSViewKitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE9FC37B1949412600232400 /* Build configuration list for PBXNativeTarget "PPSViewKitTests" */;
+			buildPhases = (
+				CE9FC3621949412600232400 /* Sources */,
+				CE9FC3631949412600232400 /* Frameworks */,
+				CE9FC3641949412600232400 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CE9FC3691949412600232400 /* PBXTargetDependency */,
+				CE9FC37D1949412700232400 /* PBXTargetDependency */,
+				CE9FC37F1949412700232400 /* PBXTargetDependency */,
+				CE9FC3811949412800232400 /* PBXTargetDependency */,
+				CE9FC3831949412800232400 /* PBXTargetDependency */,
+			);
+			name = PPSViewKitTests;
+			productName = PPSViewKitTests;
+			productReference = CE9FC3661949412600232400 /* PPSViewKitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		CEF0CE13193ED0DA003395DF /* learnSwift */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = CEF0CE32193ED0DA003395DF /* Build configuration list for PBXNativeTarget "learnSwift" */;
@@ -163,10 +354,13 @@
 				CEF0CE11193ED0DA003395DF /* Frameworks */,
 				CEF0CE12193ED0DA003395DF /* Resources */,
 				068F60078F8F4FA48DD63BA9 /* Copy Pods Resources */,
+				CE9FC37A1949412600232400 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				CE9FC3701949412600232400 /* PBXTargetDependency */,
+				CE9FC3741949412600232400 /* PBXTargetDependency */,
 			);
 			name = learnSwift;
 			productName = learnSwift;
@@ -200,6 +394,13 @@
 				LastUpgradeCheck = 0600;
 				ORGANIZATIONNAME = paopaosa;
 				TargetAttributes = {
+					CE9FC35B1949412600232400 = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					CE9FC3651949412600232400 = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = CE9FC35B1949412600232400;
+					};
 					CEF0CE13193ED0DA003395DF = {
 						CreatedOnToolsVersion = 6.0;
 					};
@@ -224,11 +425,27 @@
 			targets = (
 				CEF0CE13193ED0DA003395DF /* learnSwift */,
 				CEF0CE27193ED0DA003395DF /* learnSwiftTests */,
+				CE9FC35B1949412600232400 /* PPSViewKit */,
+				CE9FC3651949412600232400 /* PPSViewKitTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		CE9FC35A1949412600232400 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE9FC3641949412600232400 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		CEF0CE12193ED0DA003395DF /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -281,6 +498,23 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		CE9FC3571949412600232400 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE9FC3851949415000232400 /* PPSStarView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE9FC3621949412600232400 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE9FC3861949415000232400 /* PPSStarView.swift in Sources */,
+				CE9FC36E1949412600232400 /* PPSViewKitTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		CEF0CE10193ED0DA003395DF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -307,6 +541,41 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		CE9FC3691949412600232400 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CE9FC35B1949412600232400 /* PPSViewKit */;
+			targetProxy = CE9FC3681949412600232400 /* PBXContainerItemProxy */;
+		};
+		CE9FC3701949412600232400 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CE9FC35B1949412600232400 /* PPSViewKit */;
+			targetProxy = CE9FC36F1949412600232400 /* PBXContainerItemProxy */;
+		};
+		CE9FC3741949412600232400 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CE9FC35B1949412600232400 /* PPSViewKit */;
+			targetProxy = CE9FC3731949412600232400 /* PBXContainerItemProxy */;
+		};
+		CE9FC37D1949412700232400 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CE9FC35B1949412600232400 /* PPSViewKit */;
+			targetProxy = CE9FC37C1949412700232400 /* PBXContainerItemProxy */;
+		};
+		CE9FC37F1949412700232400 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CE9FC35B1949412600232400 /* PPSViewKit */;
+			targetProxy = CE9FC37E1949412700232400 /* PBXContainerItemProxy */;
+		};
+		CE9FC3811949412800232400 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CE9FC35B1949412600232400 /* PPSViewKit */;
+			targetProxy = CE9FC3801949412800232400 /* PBXContainerItemProxy */;
+		};
+		CE9FC3831949412800232400 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CE9FC35B1949412600232400 /* PPSViewKit */;
+			targetProxy = CE9FC3821949412800232400 /* PBXContainerItemProxy */;
+		};
 		CEF0CE2A193ED0DA003395DF /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = CEF0CE13193ED0DA003395DF /* learnSwift */;
@@ -326,6 +595,85 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		CE9FC3751949412600232400 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PPSViewKit/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				METAL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CE9FC3761949412600232400 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = PPSViewKit/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				METAL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CE9FC3771949412600232400 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PPSViewKitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				METAL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CE9FC3781949412600232400 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PPSViewKitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				METAL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		CEF0CE30193ED0DA003395DF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -417,6 +765,17 @@
 				INFOPLIST_FILE = learnSwift/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-framework",
+					CoreGraphics,
+					"-framework",
+					MobileCoreServices,
+					"-framework",
+					Security,
+					"-framework",
+					SystemConfiguration,
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "learnSwift/learnSwift-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -433,6 +792,17 @@
 				INFOPLIST_FILE = learnSwift/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-framework",
+					CoreGraphics,
+					"-framework",
+					MobileCoreServices,
+					"-framework",
+					Security,
+					"-framework",
+					SystemConfiguration,
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "learnSwift/learnSwift-Bridging-Header.h";
 			};
@@ -482,6 +852,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		CE9FC3791949412600232400 /* Build configuration list for PBXNativeTarget "PPSViewKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE9FC3751949412600232400 /* Debug */,
+				CE9FC3761949412600232400 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE9FC37B1949412600232400 /* Build configuration list for PBXNativeTarget "PPSViewKitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE9FC3771949412600232400 /* Debug */,
+				CE9FC3781949412600232400 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		CEF0CE0F193ED0DA003395DF /* Build configuration list for PBXProject "learnSwift" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
