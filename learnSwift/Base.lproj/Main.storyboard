@@ -126,7 +126,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
                         <prototypes>
-                            <tableViewCell contentMode="scaleToFill" selectionStyle="gray" indentationWidth="10" reuseIdentifier="Cell" rowHeight="91" id="LGl-4X-0E9" customClass="CustomTableViewCell" customModule="learnSwift" customModuleProvider="target">
+                            <tableViewCell contentMode="scaleToFill" ambiguous="YES" selectionStyle="gray" indentationWidth="10" reuseIdentifier="Cell" rowHeight="91" id="LGl-4X-0E9" customClass="CustomTableViewCell" customModule="learnSwift" customModuleProvider="target">
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="LGl-4X-0E9" id="HPT-Qs-AjF">
                                     <autoresizingMask key="autoresizingMask"/>
@@ -136,7 +136,7 @@
                                             <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                             <userDefinedRuntimeAttributes>
                                                 <userDefinedRuntimeAttribute type="color" keyPath="textColor">
-                                                    <color key="value" red="0.99607849120000003" green="0.5411764979" blue="0.45490199329999997" alpha="1" colorSpace="deviceRGB"/>
+                                                    <color key="value" red="0.24080197513418564" green="0.082901317655237228" blue="0.25448690878378377" alpha="1" colorSpace="calibratedRGB"/>
                                                 </userDefinedRuntimeAttribute>
                                             </userDefinedRuntimeAttributes>
                                         </view>
