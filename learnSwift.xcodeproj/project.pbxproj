@@ -139,6 +139,7 @@
 		CE22DA5B1946F84600CF8CE6 /* learnSwift-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "learnSwift-Bridging-Header.h"; sourceTree = "<group>"; };
 		CE22DA5C1946F84600CF8CE6 /* learnSwiftTests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "learnSwiftTests-Bridging-Header.h"; sourceTree = "<group>"; };
 		CE2A1090193F0243007FCFCE /* MyTableController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyTableController.swift; sourceTree = "<group>"; };
+		CE4F02D5196BEC580017AC6D /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		CE555F64195BF9830014C861 /* StringWork.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringWork.swift; sourceTree = "<group>"; };
 		CE8BD6A11945A12F0087C3AD /* CustomTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
 		CE8BD6A31945A24A0087C3AD /* MyContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyContentView.swift; sourceTree = "<group>"; };
@@ -267,6 +268,7 @@
 		CEF0CE0B193ED0DA003395DF = {
 			isa = PBXGroup;
 			children = (
+				CE4F02D5196BEC580017AC6D /* README.md */,
 				CEF0CE16193ED0DA003395DF /* learnSwift */,
 				CEF0CE2B193ED0DA003395DF /* learnSwiftTests */,
 				CE9FC35D1949412600232400 /* PPSViewKit */,
