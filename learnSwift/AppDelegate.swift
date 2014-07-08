@@ -18,6 +18,44 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Override point for customization after application launch.
         println(AppURL())
         printLog("Hello wolrd")
+        debugPrintln("Hello World")
+//        var start: CFAbsoluteTime = CFAbsoluteTimeGetCurrent()
+//        var container : String[] = []
+//        let sb = "A string of text"
+//        for (var i=0; i<100_000; i++) {
+//            container.append(sb)
+//        }
+//        println("\(CFAbsoluteTimeGetCurrent() - start)")
+        
+        func funcTest(a:Int, closure: (Int) -> Int) ->Int {
+            var value = a + closure(a)
+            println("The avlue is: \(value)")
+            return value
+        }
+        
+//        funcTest(20) {
+//            return $0 + 10
+//        }
+        var number : Int? = funcTest(21, { s1 in
+            return s1 + 10
+            })
+//        assert(number < 50, "No more than 50")
+        
+        let vString = StringWork()
+        if vString.containsString("Hello Swift", compareString: "Swift") {
+            println("Here is swift string.")
+        }
+        
+        if  "hello Objective-C".lowercaseString.rangeOfString("objective-c") {
+            println("got objective-c")
+        }
+        
+        if vString.containsLowercaseString("Helo NAS", searchString: "nas") {
+            println("it contains nas")
+        }
+        
+//        vString.swapTwoValues(&a, value2: &b)
+        
         return true
     }
 

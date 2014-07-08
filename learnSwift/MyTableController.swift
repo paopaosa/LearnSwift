@@ -10,6 +10,7 @@ import UIKit
 
 class MyTableController: UITableViewController {
     var dataList = [12, 3, 5, 100, 20]
+    var isHidden = true as Bool
     let manager = AFHTTPRequestOperationManager()
 
     init(style: UITableViewStyle) {
@@ -38,6 +39,12 @@ class MyTableController: UITableViewController {
             failure: { (operation: AFHTTPRequestOperation!,error: NSError!) in
                 println("Error: " + error.localizedDescription)
             })
+        var words:String! = "words"
+        if words.rangeOfString("or") {
+            debugPrintln("found or")
+        }
+        
+        self.view.backgroundColor = UIColor.purpleColor()
     }
 
     override func didReceiveMemoryWarning() {
@@ -64,11 +71,27 @@ class MyTableController: UITableViewController {
         let cell = tableView.dequeueReusableCellWithIdentifier("Cell", forIndexPath: indexPath) as CustomTableViewCell!
 //        cell.textLabel.text = String(format: "%i", indexPath.row+1)
         // Configure the cell...
+        var start:CFAbsoluteTime = CFAbsoluteTimeGetCurrent()
         cell.textLabel.text = "\(self.dataList[indexPath.row])"
         cell.textLabel.backgroundColor = UIColor.clearColor()
+        println("duration is \(CFAbsoluteTimeGetCurrent() - start)")
         return cell
     }
     
+    override func tableView(tableView: UITableView!, didSelectRowAtIndexPath indexPath: NSIndexPath!) {
+//        [[UIApplication sharedApplication] setStatusBarHidden:YES withAnimation:UIStatusBarAnimationFade];
+        self.isHidden = indexPath.row % 2 == 0 ? true : false
+        UIApplication.sharedApplication().setStatusBarHidden(isHidden, withAnimation: UIStatusBarAnimation.Fade)
+        self.setNeedsStatusBarAppearanceUpdate()
+    }
+    
+    override func prefersStatusBarHidden() -> Bool  {
+        return self.isHidden
+    }
+    
+//    override func preferredStatusBarStyle() -> UIStatusBarStyle {
+//        return .LightContent
+//    }
 
     /*
     // Override to support conditional editing of the table view.

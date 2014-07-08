@@ -3,7 +3,7 @@
 //  learnSwiftTests
 //
 //  Created by macpps on 14-6-4.
-//  Copyright (c) 2014年 paopaosa. All rights reserved.
+//  Copyright (c) 2014 paopaosa. All rights reserved.
 //
 
 import XCTest
